@@ -1,0 +1,10 @@
+# docker-compose ci.yaml
+version: "2"
+services:
+  lib:
+    build: "./"
+    image: "charandas/schema-survey-data"
+    depends_on:
+      - rethink
+  rethink:
+    image: "charandas/rethinkdb:2.3.5"

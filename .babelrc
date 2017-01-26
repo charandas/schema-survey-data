@@ -1,0 +1,3 @@
+{
+	"presets": ["@charandas/babel-preset-charandas-node6"]
+}

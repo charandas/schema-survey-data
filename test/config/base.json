@@ -1,0 +1,7 @@
+{
+	"rethink": {
+		"host": "rethink",
+		"port": "28015",
+		"db": "test"
+	}
+}

@@ -1,0 +1,48 @@
+{
+  "name": "schema-survey-data",
+  "version": "0.1.0",
+  "description": "A microlib that defines schema for test survey data",
+  "main": "models/index.js",
+  "scripts": {
+    "gulp": "node node_modules/gulp/bin/gulp.js",
+    "prepublish": "npm run gulp build",
+    "test": "npm run gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:charandas/schema-survey-data.git"
+  },
+  "keywords": [
+    "survey",
+    "schema",
+    "relations"
+  ],
+  "author": "Charandas Batra",
+  "license": "MIT",
+  "devDependencies": {
+    "@charandas/babel-preset-test-node6": "^1.0.0",
+    "@charandas/config": "^1.0.5",
+    "@charandas/eslint-config-base": "^1.0.0",
+    "@charandas/test-mocha": "^1.0.2",
+    "@charandas/gulp-src-entries": "^1.0.0",
+    "@charandas/lintrc": "^1.0.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.19.0",
+    "babel-plugin-transform-es2015-parameters": "^6.18.0",
+    "eslint-plugin-import": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-babel-istanbul": "^0.11.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-istanbul": "^0.8.1",
+    "gulp-lintspaces": "^0.3.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-util": "^3.0.4",
+    "moment": "^2.17.1",
+    "uuid": "^3.0.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "lodash": "^4.17.2",
+    "thinky": "^2.3.8"
+  }
+}
