@@ -1,5 +1,17 @@
 ### schema-survey-data
 
+Oftentimes, the most heart-poured work of us software developers remains within confines
+of closed-source at companies we have left behind us.
+
+This is just a repository from my personal hacking that I have made public to
+demonstrate my coding style to potential employers or clients. 
+
+It depends on certain private npm packages and docker images, and is not intended
+to be run by you.
+
+Hopefully, though the coding style and structure provides some insight into me as
+a developer.
+
 ### Development
 
 2. Setup dev env:
