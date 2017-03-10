@@ -15,23 +15,23 @@ a developer.
 ## Development
 
 1. With docker and docker compose installed, and `docker login gitlab.com` done,
-```
-# Start the container
-docker-compose -f ./dev.yml up -d
-```
+  ```
+  # Start the container
+  docker-compose -f ./dev.yml up -d
+  ```
 
 2. Enter the container
-```
-# Execute a shell and enter it in the running container
-❯ docker-compose -f ./dev.yml exec lib sh
-# then inside the container
-npm test
-```
+  ```
+  # Execute a shell and enter it in the running container
+  ❯ docker-compose -f ./dev.yml exec lib sh
+  # then inside the container
+  npm test
+  ```
 
 3. For docker cleanup, enter this on the dev box after quiting any interactive shells, or they would quit anyways:
-```
-❯ docker-compose -f ./dev.yml down
-```
+  ```
+  ❯ docker-compose -f ./dev.yml down
+  ```
 
 
 ### TODO
