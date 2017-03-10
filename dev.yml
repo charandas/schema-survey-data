@@ -1,13 +1,16 @@
 # docker-compose dev.yaml
-version: "2"
+version: "3.1"
 services:
   lib:
     build: "./"
     image: "charandas/schema-survey-data"
     volumes:
       - .:/src
-    depends_on:
-      - rethink
+   depends_on:
+     - rethink
+    command: /bin/sh
+    stdin_open: true
+    tty: true
   rethink:
     image: "charandas/rethinkdb:2.3.5"
     ports:
